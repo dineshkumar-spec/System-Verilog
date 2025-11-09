@@ -1,4 +1,4 @@
-module pack_st;
+module unpack_st;
   typedef struct{
     string name;
     bit[31:0]salary;
