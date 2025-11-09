@@ -20,3 +20,20 @@ module structure;
     $display("student_detail s2:roll_num=%0b,mark=%0h",s2.roll_num,s2.mark);
   end
 endmodule
+//////////////////////////////////////////////////////////////////
+module pack_st;
+  typedef struct packed{
+    bit[31:0]salary;
+    int id;
+  }employe;
+  initial begin
+  employe e1,e2;
+    e1.salary = 'h30000;
+    e1.id = 'd1234;
+    $display("E1:%p",e1);
+    
+    e2.salary = 'h40000;
+    e2.id = 'd4321;
+    $display("E2:%p",e2);
+  end
+endmodule
