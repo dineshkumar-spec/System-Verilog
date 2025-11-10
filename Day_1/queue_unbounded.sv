@@ -25,5 +25,14 @@ module queue();
     $display(q);
   end
 endmodule
-    
+/*# KERNEL: '{0, 1, 2, 5}
+# KERNEL: '{0, 2, 5}
+# KERNEL: '{7, 0, 2, 5}
+# KERNEL: '{7, 0, 2, 5, 9}
+# KERNEL:           9,'{7, 0, 2, 5}
+# KERNEL:           7,'{0, 2, 5}
+# KERNEL: '{5, 2, 0}
+# KERNEL: '{0, 2, 5}
+# KERNEL: '{5, 2, 0}
+# KERNEL: '{0, 2, 5}*/
   
