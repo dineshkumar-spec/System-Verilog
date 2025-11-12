@@ -8,7 +8,7 @@ module enu;
     $display("Previous %s",a.name());
     b=a;
     $display("%s",b.name());
-    b=job'(a+1);
+    b=job'(a+1);//here out of boundry so its blank 
     $display("%s",b.name());
     $display("Last %s",a.name());
     a=a.next();
