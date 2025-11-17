@@ -14,7 +14,8 @@ module cas;
   #10 index=8'b0101_0101;
   #10 index=8'b0010_0100;
   #10 index=8'b0001_1101;
-    #40 $finish;
+  #10 index=8'b0000_1111;
+  #40 $finish;
   end
   
   initial begin
