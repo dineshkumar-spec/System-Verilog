@@ -12,3 +12,13 @@ module eg;
     $display(odd_even());//calling in display statement 
   end
 endmodule
+////////////////////////////////////////////////////////////////////
+module eg;
+  function int sum( int a,b);
+    return a+b;
+  endfunction
+  
+  initial begin
+    $display(sum(10,10));
+  end
+endmodule
