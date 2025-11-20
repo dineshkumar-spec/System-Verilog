@@ -16,3 +16,4 @@ module tbench_top;
   design_ex dut (addr);
   testbench test(addr);
 endmodule
+//Addr = 0
