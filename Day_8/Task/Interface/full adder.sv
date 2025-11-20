@@ -2,6 +2,7 @@
 module half_adder(input a,b,output sum,carry);
   assign {carry,sum}=a+b;
 endmodule
+//fa_if is interface name nd inf is handle name to access multiple signals  
 
 module full_adder(fa_if inf);
 wire s0,c0,c1;
@@ -14,7 +15,7 @@ interface fa_if;
   logic a,b,c;
   logic s,cout;
 endinterface
-
+//handle name is usd to assign input values and instancs full adder
 module tb;
   fa_if inf();
   full_adder fa(inf);
