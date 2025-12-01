@@ -7,7 +7,21 @@ which runs 64 times so that the array is filled as a
 sparse array
 d. use first, next, last, prev methods to get the values of
 these elements*/
+/*repeat(64) produces powers of 2
 
+until int overflows.
+
+Correct up to iteration 31
+
+(1 → 1073741824)
+
+After that:
+
+Overflow occurs
+
+idx becomes negative and then 0
+
+arr[0] gets written repeatedly*/
 module sparse;
   longint arr [int];
   int idx;
