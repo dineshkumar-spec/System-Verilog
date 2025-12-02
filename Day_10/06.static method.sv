@@ -19,6 +19,6 @@ module static_property;
     foreach (pkt[i])begin
       pkt[i] = new();
     end
-    pkt[0].display_packets_created();
+    pkt.display_packets_created();
   end
 endmodule
