@@ -1,4 +1,4 @@
-class packet #(parameter int ADDR_WIDTH = 32, DATA_WIDTH = 32);
+class packet #(parameter int ADDR_WIDTH = 32, DATA_WIDTH = 32);//declaring through parameter
   bit [ADDR_WIDTH-1:0]addr;
   bit [DATA_WIDTH-1:0]data;
   
