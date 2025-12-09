@@ -19,7 +19,7 @@ module casting;
     childclass c = new();
     c.addr = 10;
     c.data=20;
-    p=c;
+    p=c;//assigning childclass handle to parent class handle
     c.display();
   end
 endmodule
