@@ -23,3 +23,4 @@ initial begin
   c.display();
 end
 endmodule
+//Child:value of data=10
