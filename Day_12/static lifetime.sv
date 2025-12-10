@@ -1,7 +1,10 @@
+/*static method only use static property if its used leads to compilation error 
+but  static life time method is a method to access non static property in static method
+local variable sholud always be static declared*/
 class sample;
   static int s_count;//static
   int count;//non static
-  function static count_fun();
+  function static count_fun();//static lifetime declared 
     int status;
     status = s_count++;
     count++;
