@@ -15,10 +15,10 @@ module randomize_eg;
     
     pkt.addr1.rand_mode(0);
     pkt.randomize();
-    $display("\taddr1=%0d \taddr2=%0d",pkt.addr1,pkt.data);
+    $display("\taddr1=%0d \tdata=%0d",pkt.addr1,pkt.data);
     
-    $display("\t addr1.rand_mode=%0d addr2.rand_mode=%0d",pkt.addr1.rand_mode(),pkt.data.rand_mode());
+    $display("\t addr1.rand_mode=%0d data.rand_mode=%0d",pkt.addr1.rand_mode(),pkt.data.rand_mode());
   end
 endmodule
-/* 	addr1=0 	addr2=37
-# 	 addr1.rand_mode=0 addr2.rand_mode=1*/
+/* 	addr1=0 	data=37
+# 	 addr1.rand_mode=0 data.rand_mode=1*/
