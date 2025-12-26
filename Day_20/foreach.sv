@@ -1,3 +1,4 @@
+//based on size iteration is exeuted
 class packet;
   rand byte addr[];
   rand byte data[];
