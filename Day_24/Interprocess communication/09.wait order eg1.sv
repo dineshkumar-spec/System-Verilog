@@ -19,7 +19,7 @@ module eg;
     //process 3
     begin 
       #8;
-      $display($time,"\t Triggering the event 2");
+      $display($time,"\t Triggering the event 3");
       ->ev_3;
     end
     
@@ -37,5 +37,5 @@ endmodule
 /*                   0waiting for the event to be triggered
                    2	 Triggering the event 2
                    6	 Triggering the event 1
-                   8	 Triggering the event 2
+                   8	 Triggering the event 3
                    8	Events triggered inorder*/
