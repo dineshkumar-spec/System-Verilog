@@ -1,3 +1,4 @@
+// the size of the mailbox is not defined then it is a unbounded mailbox.
 class A;
   int a;
   int i;
