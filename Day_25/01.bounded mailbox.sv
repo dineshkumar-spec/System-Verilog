@@ -1,3 +1,4 @@
+//If the size of the mailbox is defined then it is a bounded mailbox. When the mailbox is full, no further data can be put in the mailbox until an item or data is get from the mailbox.
 class A;
   int a;
   int i;
